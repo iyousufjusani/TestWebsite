@@ -1,0 +1,11 @@
+.cookiesContainer {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  background-color: transparent;
+  right: 0;
+  z-index: 9999;
+}
+.cookiesContentBox h1 {
+  font-size: 18px;
+}

@@ -1,0 +1,11 @@
+.preferencesWrapper {
+  max-width: 38rem;
+  padding: 1rem;
+}
+.preferencesWrapper h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.preferencesWrapper p {
+  font-size: 14px;
+}

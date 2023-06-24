@@ -1,0 +1,31 @@
+.portalWrapper {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  height: 100%;
+  z-index: 99999;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding-block: 4rem;
+}
+.portalWrapper::-webkit-scrollbar {
+  display: none;
+}
+.portalModel {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  max-width: 90%;
+  background-color: white;
+
+  border-radius: 20px;
+  width: auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}

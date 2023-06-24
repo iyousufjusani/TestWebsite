@@ -1,0 +1,332 @@
+.BannerContainer {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  padding-block: 30px;
+  clip-path: polygon(100% 94%,
+      90% 97%,
+      74% 99%,
+      54% 98%,
+      34% 97%,
+      14% 94%,
+      0 91%,
+      0% 0%,
+      100% 0%);
+  background-color: var(--clr-primary);
+  height: 100vh;
+}
+
+.BannerContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.BannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+
+  align-items: center;
+}
+
+.BanerDescription {
+  margin-top: 10px;
+}
+
+.BannerContainer h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  position: relative;
+  z-index: 9999;
+  line-height: 1.3;
+
+  color: #fff;
+}
+
+.formContainer {
+  position: relative;
+  z-index: 999;
+}
+
+.signupTermsGroup label {
+  font-size: 12px;
+}
+
+.link {
+  font-size: 12px;
+}
+
+.formElement {
+  width: 50%;
+}
+
+.homeContainer {
+  height: 100vh;
+  clip-path: polygon(100% 84%,
+      100% 92%,
+      89% 94%,
+      74% 96%,
+      53% 98%,
+      33% 98%,
+      17% 97%,
+      7% 95%,
+      0 93%,
+      0 0,
+      100% 0);
+}
+
+.homeBannerMainContainer {
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 97vh;
+  clip-path: polygon(100% 84%,
+      100% 94%,
+      91% 95%,
+      76% 97%,
+      53% 98%,
+      33% 98%,
+      17% 97%,
+      7% 95%,
+      0 93%,
+      0 0,
+      100% 0);
+}
+
+.homeBannerMainContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.homeBannerContainer {
+  position: relative;
+  z-index: 999;
+  height: 90%;
+  display: flex;
+}
+
+.homeBannerContainer .row {
+  margin: auto;
+}
+
+.homeBannerDescriptionBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 700px;
+  flex-wrap: wrap;
+  padding: 0 60px;
+}
+
+.homeBannerDescriptionBox h1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 60px;
+
+  line-height: 1.5;
+
+  color: #ffffff;
+}
+
+.homeBannerDescriptionBox p {
+  font-size: 20px;
+
+  color: #ffffff;
+}
+
+.homeBannerDescriptionBox a {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.whyNavigoFeature {
+  max-width: 90%;
+}
+
+.whyNavigoFeature p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.whyNavigoImage {
+  width: 100%;
+  height: 550px;
+
+  position: relative;
+}
+
+.requirementContainer {
+  background-color: #31343c;
+  position: relative;
+}
+
+.homeRequirements {
+  width: 50%;
+  margin: auto;
+  width: fit-content;
+  color: #ffffff;
+}
+
+.requireCarImg {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.requireCircle {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.HomeFAQTopBox h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.HomeFAQTopheading {
+  width: fit-content;
+  margin: auto;
+}
+
+.HomeFAQTopheading h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  background-color: #31343c;
+  border-radius: 30px;
+  padding: 2px 15px;
+}
+
+.homeRequirements li::before {
+  font-size: 25px;
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: white;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+
+.homeDownloadAppContainer {
+  background-color: #31343c;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.whyNavigoFeatureBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeDownloadAppBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 650px;
+}
+
+.mobileIconBox {
+  display: flex;
+}
+
+.requireMobile {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 150px;
+  right: 0;
+}
+
+.homeDownloadAppBox h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3bb1c2;
+}
+
+.homeDownloadAppBox p {
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.buttom {
+  background-color: #3bb1c2;
+}
+
+@media screen and (max-width: 450px) {
+  .homeBannerDescriptionBox {
+    padding: 0 20px;
+  }
+
+  .homeBannerDescriptionBox h1 {
+    font-size: 40px;
+  }
+
+  .homeServiceDesc {
+    width: 100%;
+  }
+
+  .homeContainer {
+    clip-path: none;
+  }
+
+  .homeBannerMainContainer {
+    clip-path: none;
+  }
+
+  .HomeFAQTopBox h1 {
+    font-size: 20px;
+  }
+
+  .HomeFAQTopBox h2 {
+    font-size: 20px;
+  }
+}
+
+.color {
+  background-color: #6ababd !important;
+  border: #6ababd;
+}
+
+@media screen and (max-width: 450px) {
+  .BannerContainer {
+    clip-path: none !important;
+  }
+}
